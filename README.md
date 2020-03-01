@@ -27,3 +27,7 @@ IAR for ARM 7.0或以上。
 
 openocd程序可以从[tinyriscv](https://gitee.com/liangkangnan/tinyriscv)里的tools/openocd目录里获得。
 
+# 4.参考文档
+
+[1] 深入浅出RISC-V调试：[deep_in_riscv_debug](https://gitee.com/liangkangnan/deep_in_riscv_debug)
+
