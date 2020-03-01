@@ -1,37 +1,29 @@
-# stm32_riscv_jtag_slave
+# 1. 介绍
 
-#### 介绍
-在STM32上模拟RISC-V JTAG(从机)的实现。
+本项目在STM32F103C8T6上实现了RISC-V调试spec，可以通过openocd上位机实现对STM32寄存器和内存的读写。
 
-#### 软件架构
-软件架构说明
+为什么做这个项目？
 
+- 加深对RISC-V调试的理解；
+- 为FPGA的实现提供参考；
 
-#### 安装教程
+# 2.使用环境
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+## 2.1操作系统
 
-#### 使用说明
+Windows 7或以上。
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+## 2.2开发环境
 
-#### 参与贡献
+IAR for ARM 7.0或以上。
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+# 3.如何使用
 
+首先下载stm32cubef1开发包，可以在STM32官网上下载或者通过百度网盘(https://pan.baidu.com/s/1Rv1Sk7LFY3DCeNwnDAvZ6w ，提取码：mz6t )下载。
 
-#### 码云特技
+下载完成后解压，然后将本项目拷贝到解压后的目录的Projects子目录里。
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  码云官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解码云上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是码云最有价值开源项目，是码云综合评定出的优秀开源项目
-5.  码云官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  码云封面人物是一档用来展示码云会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+最后打开IAR工程，重新编译一次即可。
+
+openocd程序可以从[tinyriscv](https://gitee.com/liangkangnan/tinyriscv)里的tools/openocd目录里获得。
+
