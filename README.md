@@ -29,5 +29,5 @@ openocd程序可以从[tinyriscv](https://gitee.com/liangkangnan/tinyriscv)里�
 
 # 4.参考文档
 
-[1] 深入浅出RISC-V调试：[deep_in_riscv_debug](https://gitee.com/liangkangnan/deep_in_riscv_debug)
+[1] [深入浅出RISC-V调试](https://liangkangnan.gitee.io/2020/03/21/深入浅出RISC-V调试/)。
 
